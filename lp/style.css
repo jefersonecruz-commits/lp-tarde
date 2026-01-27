@@ -27,17 +27,53 @@ a:hover{
     cursor: pointer;
     opacity: 1;
 }
-i{
-
+.left{
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 999px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.493);
 }
+.left img{
+    width: 400px;
+    height: auto;
+    transition: all 200ms ease-in-out;
+}
+.left img:hover{ transform: scale(1.2);
+}
+
+.right{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #s1{
     height: 100vh;
     padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
 }
+
 #s2{
     height: 100vh;
-    padding-top: 80px;
+    background-image: url("./1920x1080-pictures-zog2vma3qpmt2o9l.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 #s3{
     height: 100vh;
     padding-top: 80px;
